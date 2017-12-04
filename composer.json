@@ -1,0 +1,18 @@
+{
+    "name": "jenny/svn-package-setting",
+    "require": {
+        "jenny/projectA": "dev-trunk"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://svn.example.org/projectA/",
+            "trunk-path": "Trunk",
+            "branches-path": "Branches",
+            "tags-path": "Tags"
+        }
+    ],
+    "config": {
+        "secure-http": false
+    }
+}
